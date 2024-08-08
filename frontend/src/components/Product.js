@@ -29,7 +29,7 @@ export default Product
 function Product({ product }) {
   return (
     <Card className='my-3 p-3 rounded'>
-      <Link to={`/product/${product._id}`}>
+      <Link to={`/product/{product._id}`}>
         <Card.Img src={product.image} variant='top' />
       </Link>
 
@@ -40,7 +40,7 @@ function Product({ product }) {
           </Card.Title>
         </Link>
 
-        <Card.Text as='h3'>${product.price}</Card.Text>
+        <Card.Text as='h3'>₱{product.price}</Card.Text>
       </Card.Body>
     </Card>
   )
