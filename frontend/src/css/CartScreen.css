@@ -1,0 +1,13 @@
+/* CartScreen.css */
+.cart-item {
+    border: 1px solid #ddd; /* Light border for the item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Space inside the border */
+    margin-bottom: 15px; /* Space between items */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.button {
+    padding: 1.8rem 2rem;
+}
